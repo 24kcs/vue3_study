@@ -1,7 +1,7 @@
 module.exports = {
   base: '/vue3_study/', /* 基础虚拟路径 */
   dest: 'docs/dist', /* 打包文件基础路径, 在命令所在目录下 */
-  title: 'Vue3 快速上手', // 标题
+  title: 'Vue3+TS 快速上手', // 标题
   description: '尚硅谷前端研究院', // 标题下的描述
   themeConfig: { // 主题配置
     logo: '/images/logo.png',
@@ -19,9 +19,9 @@ module.exports = {
       { text: '全套视频资料', link: 'http://www.gulixueyuan.com/' },
     ],
     sidebar: [ // 左侧导航
-      '列表',
+      '00_课程介绍',
       {
-        title: 'TypeScript快速上手',
+        title: '一.TypeScript快速上手',
         collapsable: false, 
         children: [
           {
@@ -48,7 +48,7 @@ module.exports = {
       },
 
       {
-        title: '初识 Vue3',
+        title: '二.Vue3快速上手',
         collapsable: false, 
         children: [ 
           'chapter3/01_认识Vue3',
@@ -56,7 +56,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Composition(组合) API',
+        title: '三.Composition API',
         collapsable: false,
         children: [
           'chapter4/01_Composition API_常用部分',
@@ -66,15 +66,15 @@ module.exports = {
         ]
       },
       {
-        title: '其它新语法',
+        title: '四.其它新组合和API',
         collapsable: false,
         children: [
           'chapter5/01_新组件',
-          'chapter5/02_全局API更新',
+          'chapter5/02_其他新API',
         ]
       },
       {
-        title: 'Vue3版 TODO LIST',
+        title: '五.Vue3综合案例',
         collapsable: false,
         children: [
           'chapter6/',

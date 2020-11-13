@@ -1,4 +1,4 @@
-# 2. 全局API更新
+# 2. 其他新的API
 ## 全新的全局API
 - createApp()
 - defineProperty()
